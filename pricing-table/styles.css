@@ -1,0 +1,121 @@
+body{
+    background: radial-gradient(ellipse at top,  #e6b800,  #e65c00 30%, #7c3aed 60%,  #1e3a8a);
+    color: white;
+    animation: animateBackground 15s ease infinite;
+    background-attachment: fixed;
+    background-size: 200% 200%;
+}
+
+@keyframes animateBackground {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    width: 300px;
+    max-width: 400px;
+    height: 550px;
+    font-family: Raleway;
+    /*Glass Effect*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.6s;
+}
+
+.box:hover{
+
+    box-shadow: 40px 40px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box-basic{
+    padding: 20px;
+    
+}
+.box-pro{
+    padding: 20px;
+}
+.box-enterprise{
+    padding: 20px;
+}
+.plan-pricing{
+    font-family: Lato;
+}
+.choose-plan-btn{
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.choose-plan-btn:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+li{
+    padding: 25px;
+    border-bottom: 0.5px solid white;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+
+
+h2{
+    display: inline-block;
+    width: 70%;
+
+}
+
+#popular-btn{
+    position: relative;
+    bottom: 4px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 5x;
+    align-content: center;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+

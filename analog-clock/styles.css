@@ -1,0 +1,122 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+.analog-clock{
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+body{
+    color: #BCCF29;
+    background-color: black; 
+}
+.heading{
+    text-align: center;
+    color: #BCCF29;
+}
+
+.numbers{
+    position: relative;
+}
+
+#t12{
+    left: 240px;
+}
+
+#o1{
+    left: 370px;
+    bottom: 5px;
+}
+
+#t2{
+    left: 440px;
+    top: 30px;
+}
+
+#t3{
+    left: 480px;
+    top: 90px;
+}
+
+#f4{
+    left: 440px;
+    top: 170px;
+}
+
+#f5{
+    left: 370px;
+    top: 210px;
+}
+
+#s6{
+    left: 240px;
+    top: 210px;
+}
+
+#s7{
+    left: 120px;
+    top: 130px;
+}
+
+#e8{
+    left: 40px;
+}
+
+#n9{
+    bottom: 153px;
+    left: 20px;
+}
+
+#t10{
+    left: 40px;
+    bottom: 290px;
+}
+
+#e11{
+    left: 120px;
+    bottom: 400px;
+}
+
+#arrow1{
+    left: 210px;
+    bottom: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

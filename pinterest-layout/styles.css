@@ -1,0 +1,48 @@
+body{
+    background-color: #FEF9D9;
+    color: #C96868; 
+}
+
+.main-container{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.sc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box{
+    height: 250px;
+    width: 170px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.s-container1 .box1{
+    height: 150px;
+}
+
+.s-container3 .box1{
+    height: 170px;
+}
+
+.s-container5 .box1{
+    height: 280px;
+}
+
+
+
+
+
+
+
