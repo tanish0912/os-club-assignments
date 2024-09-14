@@ -32,34 +32,34 @@ body{
 
 
 .front{
-    background-color: #d50000;
+    background-color: #FFD500;
     transform: translateZ(100px);
 }
 
 .back{
-    background-color: #aa00ff;
+    background-color: #FFFFFF;
     transform: translateZ(-100px);
 }
 
 .top{
-    background-color: #00Bfa5;
+    background-color: #0051BA;
     transform: rotateX(90deg) translateZ(100px);
     
 }
 
 .bottom{
-    background-color: #64dd17;
+    background-color: #009E60;
     transform: rotateX(90deg) translateZ(-100px);
 }
 
 
 .left{
-    background-color: #304ffe;
+    background-color: #C41E3A;
     transform: rotateY(90deg) translateZ(100px);
 }
 
 .right{
-    background-color: #0091ea;
+    background-color: #FF5800;
     transform: rotateY(-90deg) translateZ(100px);
 }
 
