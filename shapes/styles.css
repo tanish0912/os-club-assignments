@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    background-color: #021526;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.shapes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.circle, .square{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+
+
+.circle{
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid aquamarine;
+}
+
+.pentagon{
+    position: relative;
+    width: 200px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid aquamarine;
+}
+
+.pentagon::after {
+    content: ''; 
+    position: absolute; 
+    top: -400px;
+    left: -100px;
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid aquamarine;
+}
+
+
+.hexagon{
+    position: relative;
+    width: 200px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid aquamarine;
+}
+
+.hexagon::after {
+    content: ''; 
+    position: absolute; 
+    top: -400px;
+    left: -100px;
+    width: 200px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid aquamarine;
+}
+
+
+
