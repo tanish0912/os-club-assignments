@@ -1,0 +1,79 @@
+body{
+    color: #ECDFCC;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    background-color: #181C14;
+    border-radius: 10px;
+    box-shadow: 10px 10px 6px gray;
+    transition: 0.5s;
+    
+}
+.box1:hover{
+    transform: rotateY(180deg);
+}
+
+.box1:hover .p1details{
+    display: none;
+}
+
+#para-details1{
+    display: none;
+    padding: 20px;
+}
+
+.box1:hover #para-details1{
+    display: block;
+    transform: rotateY(180deg);
+}
+
+#coke-can-img{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 20px;
+    left: 75px;
+    transition: 0.5s;
+}
+
+
+.box2:hover{
+    transform: rotateY(180deg);
+}
+
+.box2:hover .p2details{
+    display: none;
+}
+
+#para-details2{
+    display: none;
+    padding: 20px;
+}
+
+.box2:hover #para-details2{
+    display: block;
+    transform: rotateY(180deg);
+}
+
+#monster-can-img{
+    position: relative;
+    width: 80%;
+    height: 50%;
+    top: 20px;
+    left: 30px;
+    transition: 0.5s;
+}
+
+
