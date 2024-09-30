@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <h1>Weather <span style="color: white; opacity: 70%;">Wise</span></h1>
+    <div class="container">
+    
+    
+        <div class="weather-details">
+            <div class="placeInput">
+                <i class="bi bi-geo-alt-fill"></i>
+                <input type="text" placeholder="e.g. Bangalore" id="placeInput" autocomplete="off">
+            </div>
+            <p id="dateTime">Today, Sep 30 18:30</p>
+            <h1 class="temperature">16<span class="degree">°C</span></h1>
+            <div class="range">
+                <p>&uarr;17<sup>°c</sup></p>
+                <p>|</p>
+                <p>&darr;30<sup>°c</sup></p>
+            </div>
+            
+
+            <div class="weather-info">
+                <p id="weatherDescription">Clear Sky</p>
+                <p>Feels Like: <span id="feelsLike">16°C</span></p>
+                <p>Humidity: <span id="humidity">45%</span></p>
+                <p>Wind Speed: <span id="windSpeed">10 km/h</span></p>
+            </div>
+        </div>
+        
+
+    </div>
+    
+
+    
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
